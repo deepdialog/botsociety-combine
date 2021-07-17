@@ -1,0 +1,14 @@
+version: '2.0'
+nlu:
+  - intent: inform
+    examples: |
+      - '我要查[上海](location)的天气'
+      - '我要查[北京](location)的天气'
+      - '[后天](date)的'
+      - '[明天](date)的'
+      - '我要查[后天](date)[上海](location)的天气'
+      - '我要查 [明天](date)[北京](location)的天气'
+      - '[后天](date)的天气'
+      - '我要查[明天](date)的天气'
+      - '[上海](location)的'
+      - '[北京](location)的'
